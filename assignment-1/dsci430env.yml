@@ -1,0 +1,30 @@
+name: 'dsci430'
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel
+  - matplotlib=3.7.2
+  - scikit-learn=1.7.2
+  - pandas>=2.0
+  - numpy=1.26.4
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-spellchecker
+  - requests>=2.24.0
+  - graphviz
+  - python-graphviz
+  - lightgbm
+  - jinja2
+  - ydata-profiling
+  - lifelines>=0.27.1
+  - joblib
+  - torchvision
+  - altair>=4.1.0
+  - xgboost>=1.1.*
+  - nltk>=3.5
+  - pip>=20
+  - aif360
+  - pip:
+    - mglearn
+    - psutil>=5.7.2
